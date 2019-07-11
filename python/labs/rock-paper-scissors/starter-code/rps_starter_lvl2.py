@@ -19,7 +19,7 @@ import random
 
 def get_player_move():
     """Asks the user to enter a move as 'r', 'p', or 's', and return it"""
-    
+
     # TODO
 
 
@@ -32,7 +32,7 @@ def get_computer_move():
 def determine_winner(player_move, comp_move):
     """Takes in a player move and computer move each as 'r', 'p', or 's',
     and returns the winner as 'player', 'computer', or 'tie'"""
-    
+
     # TODO
 
 
@@ -55,3 +55,13 @@ def get_move_name(short_move):
 
 
 # Write your code below - make RPS happen using the functions above!
+
+player_move = raw_input("Please enter r , p , or s ")
+
+
+if player_move == "r":
+    print("Your move is Rock!")
+elif player_move == "p":
+    print("Your move is Paper!")
+elif player_move == "s":
+    print("Your move is Scissors")
